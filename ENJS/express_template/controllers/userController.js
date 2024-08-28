@@ -25,14 +25,9 @@ exports.createUser = async (req, res) => {
 exports.getUsers = async(req,res) =>{
     console.log("Get users");
     try {
-        User.find()
-            .then((users)=>{
-                res.status(200)
-                .json({
-                    message:"Success",
-                    data:users
-                });
-            })
+       var users = User.find();
+       res.render('index',users)
+           
     } catch (err) {
         res.status(500)
             .json({
