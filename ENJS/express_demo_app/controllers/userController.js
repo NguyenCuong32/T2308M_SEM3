@@ -4,7 +4,7 @@ exports.getUsers = async(req,res)=>{
     try {
         const users = await User.find();
         console.log(users.toString());
-        res.render('users/index',users);
+        res.render('users/index',{users: users});
     } catch (err) {
         console.log(err);
     }

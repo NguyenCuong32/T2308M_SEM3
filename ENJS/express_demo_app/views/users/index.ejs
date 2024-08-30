@@ -1,4 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <h1>User list</h1>
+    <head>
+        <link
+        href="../../node_modules/bootstrap/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+      />
+      <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+   
+    <body>
+        <h1>User list</h1>
+        <table class="table table-active">
+            <thead>
+                <th>User name</th>
+                <th>Fullname</th>
+                <th>Address</th>
+                <th>Age</th>
+                <th>Actions</th>
+            </thead>
+            <tbody>
+                <% users.forEach(user => { %>
+                    <tr>
+                        <td> <%= user.username %> </td>
+                        <td> <%= user.fullname %> </td>
+                        <td> <%= user.address %> </td>
+                        <td> <%= user.age %> </td>
+                        <td></td>
+                    </tr>
+               <% }) %>
+            </tbody>
+    
+        </table>
+    </body>
 </html>
