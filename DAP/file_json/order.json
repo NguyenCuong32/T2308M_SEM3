@@ -1,0 +1,16 @@
+{
+    "orderId":"10",
+    "customer":{
+        "customerId":"100",
+        "name":"Hoang",
+        "email":"email@gmail.com",
+        "phone":"+84099921921",
+        "address":{
+            "street":"Ton That Thuyet",
+            "city":"Ha Noi",
+            "state":"HN",
+            "postalCode":"10000",
+            "country":"VN"
+        }
+    }
+}
