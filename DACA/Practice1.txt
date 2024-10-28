@@ -1,0 +1,17 @@
+Đề tài: Xây dựng dự án quản lý thông tin sinh viên
+- Quản lý lớp học Class
+- Quản lý sinh viên Student
+- Quản lý các khoá học Courses
+
+Mối quan hệ giữa các thực thể : 
+ - Một lớp học sẽ có nhiều sinh viên
+ - Khoá học sẽ có nhiều sinh viên và sinh viên sẽ có nhiều khoá học
+
+Yêu cầu: 
+1. Thêm các sinh viên vào danh sách sinh viên, có thể sửa thông tin và xoá thông tin của từng sinh viên
+2. Thêm các lớp học vào danh sách lớp học, đồng thời có thể đưa sinh viên trong danh sách sinh viên vào lớp học
+3. Khởi tạo các khoá học và tạo ra danh sách khoá học. Đồng thời thêm sinh viên vào từng khoá học
+4. Thực hiện đăng ký, đăng nhập tài khoản vào hệ thống, phân quyền cho sinh viên và quản trị viên
+Yêu cầu khác:
+1. Thực hiện bằng giải pháp Code First
+2. Thực hiện bằng giải pháp Database First

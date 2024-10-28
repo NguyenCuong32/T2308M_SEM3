@@ -1,0 +1,8 @@
+1. Cài đặt hệ thống: 
+	- Máy chủ có bản quyền hay không? Cái này phụ thuộc hợp đồng bên anh khi ký 
+	- Máy chủ có cài đặt phần mềm diệt virut hay không?
+	- Nếu triển khai là trang web thì cần có chứng thư số: chỉ vào trang web bằng https
+	- Các cài đặt tường lửa cho máy chủ
+	- Có hệ thống dự phòng khi gặp sự cố hay không? dữ liệu dự phòng được sao lưu như nào? định kỳ bao lâu và lưu trữ ở đâu
+	- Thời gian khôi phục hệ thống khi có sự cố là bao lâu?
+	- Ngoài ra việc phân quyền hệ thống như nào? Những ai có quyền sử dụng và quản trị hệ thống. Dữ liệu có được truy nhập bởi bên thứ 3 hay không?

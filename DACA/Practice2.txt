@@ -1,0 +1,15 @@
+1. Xây dựng trang web cho phép quản lý, mua bán các loại sách
+	- Chủ hệ thống sách có thể thêm các sản phẩm mới vào hệ thống, thay đổi thông tin về sản phẩm, 
+	phân loại sản phẩm
+	- Nhân viên của cửa hàng có thể nhập sách vào kho, bán sách tại quầy
+	- Khách hàng có thể mua sản phẩm tại quầy, đặt mua, thanh toán và nhận hàng trên website
+	- Khách hàng có thể đánh giá, review, xem review các sản phẩm
+	- Cửa hàng trưởng, kế toán trưởng, thủ kho có thể theo dõi tình hình hoạt động, mua bán và hàng tồn kho trên hệ thống.
+2. Xây dựng một trang web cho phép quản lý mua bán và cho thuê các loại cây cảnh
+	- Là chủ của hệ thống cây cảnh có nhiều nhà vườn khác nhau ở khắp nơi trong cả nước mong muốn xây dựng một hệ thống
+	giúp quản lý việc mua bán, cho thuê cây cảnh
+	- Nhà vườn có thể thêm mới các cây cảnh lên hệ thống
+	- Khách hàng có thể tìm kiếm, đặt mua trên hệ thống
+	- Chủ hệ thống, chủ vườn hoặc kế toán,... Có thể theo dõi tình hình hoạt động chung của hệ thống để có các chiến lược phù hợp 
+	cho hoạt động sản xuất kinh doanh.
+	
