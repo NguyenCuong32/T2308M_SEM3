@@ -1,0 +1,3 @@
+Bài tập về nhà:
+1. Sử dụng Entity Framework kết hợp Function
+2. Đọc dữ liệu từ DB, thêm dữ liệu vào DB 
