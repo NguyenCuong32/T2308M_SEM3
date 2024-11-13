@@ -1,3 +1,4 @@
+using DMAS;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Functions.Worker;
@@ -8,10 +9,12 @@ namespace FPTAptech.T2308M
     public class FunctionDemo
     {
         private readonly ILogger<FunctionDemo> _logger;
+        private readonly AppDbContext appDbContext;
 
-        public FunctionDemo(ILogger<FunctionDemo> logger)
+        public FunctionDemo(ILogger<FunctionDemo> logger,AppDbContext appDbContext)
         {
             _logger = logger;
+            this.appDbContext = appDbContext;
         }
 
         [Function("FunctionDemo")]
@@ -21,7 +24,12 @@ namespace FPTAptech.T2308M
             System.Console.WriteLine($"Id {id}");
             System.Console.WriteLine($"Body {request}");
             _logger.LogInformation("C# HTTP trigger function processed a request.");
-            return new OkObjectResult("Welcome to Azure Functions!");
+            var classes = this.appDbContext.Classes.ToList();
+            foreach (var c in classes)
+            {
+                System.Console.WriteLine(c.ClassName);
+            }
+            return new OkObjectResult(classes);
         }
     }
 }
