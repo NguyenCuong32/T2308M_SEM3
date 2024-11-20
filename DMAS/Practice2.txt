@@ -1,0 +1,5 @@
+Sử dụng Azure Function để thực hiện các yêu cầu sau:
+1. Viết các api cho phép thêm, sửa, xoá, lấy dữ liệu của nhiều bảng có quan hệ với nhau
+2. Sử dụng các công nghệ frontend(reactjs, nextjs, ...) đang có hiện nay,
+ viết một chương trình tương tác với api đó. 
+Cho phép Thêm, sửa, xoá, lấy dữ liệu từ trang web đó.
